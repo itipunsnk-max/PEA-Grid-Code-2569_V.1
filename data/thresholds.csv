@@ -1,0 +1,35 @@
+﻿topic,value,scope,note,ref
+ประกาศใหม่,10 ธ.ค. 2569,ทุกโครงการ,Official effective date,ประกาศ PEA 10 ก.ย. 2569
+Export LV 1-phase,≤ 5 kW/ราย,เฉพาะจ่าย/ขายเข้า PEA,ไม่ใช่ขนาดติดตั้ง DC,C 2.2.1(1)
+Export LV multi-phase,≤ 10 kW/ราย,เฉพาะจ่าย/ขายเข้า PEA,ความต่างกำลังผลิตแต่ละเฟส ≤5kW,C 2.2.1(2)
+LV transformer export hosting,≤ 25% transformer kVA,รวมผู้ขอ+ผู้เชื่อมต่อทุกราย,เทียบกำลังส่งออก kW กับ rating kVA ตามถ้อยคำข้อกำหนด,C 2.2.1(3)
+Feeder 22 kV export,≤ 8 MW/feeder,รวมผู้เชื่อมต่อทุกราย,ต้องตรวจ feeder hosting กับ PEA,C 2.2.2(1)
+Feeder 33 kV export,≤ 10 MW/feeder,รวมผู้เชื่อมต่อทุกราย,ต้องตรวจ feeder hosting กับ PEA,C 2.2.2(2)
+Substation transformer export,≤ 75% rated kVA,รวมทุก feeder 22/33 kV,คำนวณตาม transformer max rating แต่ละลูก,C 2.2.2
+115 kV single overhead export,≤ 120 MW/feeder,ผู้เชื่อมต่อทุกรายรวม,Cable/constraints may change limit,C 2.2.3
+115 kV double overhead export,≤ 230 MW/feeder,ผู้เชื่อมต่อทุกรายรวม,Cable/constraints may change limit,C 2.2.3
+Short circuit total,≤ 85% breaker interrupting capacity,ทุกโครงการ,ประสาน protection,C 2.1.1(3)
+Inverter anti-islanding,≤ 1 second,ทุก inverter,ตัดเมื่อต้นทาง PEA ไม่มีไฟ,C 2.9.6
+Inverter frequency FRT,47–52 Hz,ทุก inverter,ride through; นอกช่วงสามารถตัด,C 2.5.2; 2.9.5
+Frequency control deadband,50 ± 0.3 Hz,PCC ≥22kV + Inverter installed >50kW,Connection Code; ดู Operation Code เพิ่ม,C 2.9.5
+Frequency droop,4% หรือ 50% ต่อ 1Hz,PCC ≥22kV + inverter installed >50kW,PEA สามารถเปลี่ยนค่า,C 2.9.5
+Operation VSPP band,49.60–50.40 Hz,ตาม O 3.1.2 เงื่อนไข MV,ไม่เท่ากับ Connection deadband,O 3.1.2.2
+Operation IPU/IPS band,49.50–50.50 Hz,ตาม O 3.3.2 เงื่อนไข MV,ไม่เท่ากับ Connection deadband,O 3.3.2.2
+Inverter PF,0.90 lag – 0.90 lead,ทุก inverter,ที่ rated P,C 2.9.2(1)
+"Volt-var, Volt-watt active threshold",≥20% rated active power,ทุก inverter,ดู characteristic curves รูป 3–4,C 2.9.2(2)
+PQM applicability,Inverter total >250 kW,ทุกโครงการ inverter,ต้องไม่สมมติว่าที่ต่ำกว่านี้ PEA ไม่เรียกเพิ่ม,C 2.4.4
+PQM accuracy class S,>250kW ถึง ≤1MW,ทุก inverter,"Class S หรือ A, IEC 61000-4-30",C Annex 7.2 ข้อ 4.4.2
+PQM accuracy class A,>1MW,ทุก generator,"IEC 61000-4-30 A, 4-7, 4-15",C Annex 7.2 ข้อ 4.4.1
+PQM memory,≥ 30 days,PQM installed,บันทึกไม่สูญหาย,C Annex 7.2 ข้อ 4.5
+PQM UPS,≥ 15 minutes,PQM installed,และ auto restart,C Annex 7.2 ข้อ 4.6
+Power quality monitoring,Total installed >1MW,ทุกประเภท,weather may be required for Solar,C 2.4.4
+DC injection,≤0.5% inverter rated current,ทุก inverter,type-test recommended,C 2.9.10
+Grid reconnection,≤5 minutes once grid normal,ทุก inverter,หรือ Ramp Rate ที่ PEA กำหนด,C 2.9.7
+Relay CT accuracy,5P20 หรือดีกว่า,ใช้ Protection Relay,ดู CT burden/saturation,C Annex 7.2 ข้อ 2
+Relay VT accuracy,3P หรือดีกว่า,ใช้ Protection Relay,Relay ต้องมี backup supply,C Annex 7.2 ข้อ 2
+IPU/IPS application review,45 วันหลังเอกสารครบ,IPU/IPS,หรือที่ PEA กำหนด,S 3.3.3(2)
+PEA inspection after completion notice,30 วัน,IPU/IPS,ก่อนทดสอบเชื่อมต่อ,S 3.3.3(5)
+Modification advance notice,≥90 วันก่อนเริ่มแก้ไข,เพิ่มเติม inverter/PCC/export,ขอเห็นชอบก่อนเปลี่ยน,C 2.11
+IPU/IPS MV audit,ทุก 3 ปี,IPU/IPS PCC ≥22kV,"PQ, relay, SCADA (if any)",O 3.3.6.2
+Inspection PEA witness notice,≥7 วันก่อน audit,IPU/IPS PCC ≥22kV,กำหนด PEA ร่วมตรวจ,O 3.3.6.4
+Incident report,3 วันหลังเหตุ,PCC ≥22kV / incident scope,เหตุฉุกเฉินตาม O 2.7.6.5,O 2.7.6.5

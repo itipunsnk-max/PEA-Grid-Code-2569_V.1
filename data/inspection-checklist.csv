@@ -1,0 +1,26 @@
+﻿id,stage,topic,action,evidence,ref
+QA-01,Design,Roof structural,"ตรวจ Dead/Live/Wind load, existing condition, anchor detail ก่อน install","Signed structural calc, anchor shop drawing",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-02,Design,Farm civil,"ตรวจ Geotech, pile embedment, Flood level, Drainage, earthwork grading","Geotech report, foundation drawing",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-03,Design,PV array,"คำนวณ PV Voc at low temp, Isc, string counts, MPPT range",DC sizing & MPPT report,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-04,Design,DC cable,"ตรวจ cable ampacity, derating, UV/weather suitability, voltage drop",DC cable schedule & datasheets,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-05,Design,AC cable,"ตรวจ cable ampacity, fault withstand, voltage drop, earth conductor",AC cable calc + cable schedule,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-06,Design,Earthing,"ตรวจ earthing, bonding, surge protection & lightning risk","Earthing SLD, ground resistance report",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-07,Construction,Structure acceptance,"Torque marking, corrosion protection, anchor pull tests ตาม Design","Torque records, inspection photos",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-08,Construction,Roof waterproofing,ทดสอบจุดเจาะ/ซีลป้องกันรั่วซึมหลังติดตั้ง,Water-tightness inspection,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-09,Construction,Cable routing,"แยก AC/DC, metal trays bonding, cable labels, bending radius",Cable route inspection,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-10,Construction,PV module,"Visual quality, serial no, clamps positions, shade clearance",Module inspection & register,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-11,Construction,DC polarity,"ตรวจ polarity ก่อนเข้าขั้ว inverter, insulation resistance (ตาม test plan)","Polarity, insulation test",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-12,Construction,AC termination,ตรวจขัน terminal torque และอุณหภูมิหลัง load test,"Termination test, thermal image",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-13,Construction,Safety,"LOTO, barriers, live-work and fall protection review","Method statement, PTW/JSA",แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-14,Construction,Equipment labels,"Warning: DC live when irradiated, switching points, fire map",As-built label plan,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-15,Grid interface,PEA interface,"ยืนยัน PCC, SLD, breaker/relay setpoints จาก PEA ก่อน energized","Approved PEA SLD, relay setting",C ข้อ 2.3; Annex 7.1
+QA-16,Grid interface,Export limiter,"Test under minimum load/high PV, CT-loss / comms-loss fail-safe",EXL log and event test,C ข้อ 2.2.4; 3.3.1
+QA-17,Grid interface,Anti-islanding,ทดสอบ loss of PEA source within 1s,Anti-islanding test report,C ข้อ 2.9.6
+QA-18,Grid interface,Inverter protections,ตรวจ OV/UV/OF/UF and ride-through setting,Approved inverter parameter sheet,C ข้อ 2.9.3-2.9.5
+QA-19,Grid interface,PQ meter,"ทดสอบ Class A/S, UPS 15min, logging 30days",PQM acceptance report,C Annex 7.2 ข้อ 4
+QA-20,Grid interface,SCADA,"ทดสอบ remote breaker controls, SOE, data points, setpoints",SCADA SAT & I/O checklist,C Annex 7.3
+QA-21,Grid interface,PEA approval to energize,"เก็บหลักฐาน PEA ร่วมตรวจ, ทดสอบ และอนุญาตก่อนเชื่อม",PEA inspection report,S ข้อ 3.3.3
+QA-22,Commission,I-V curve,เก็บ commissioning baseline ราย string ตามสภาพหน้างาน,IV curve record,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-23,Commission,Thermal scan,"ถ่าย Infrared ของ Combiner, inverter, AC cabinet ขณะจ่ายกำลัง",Thermography report,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-24,Handover,As-built & O&M,"ส่ง SLD, string map, relay settings, inverter FW, O&M, warranty",Handover dossier,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
+QA-25,Handover,Training,"อบรม Emergency shutdown, communications, inspection schedule",Training attendance,แนวทางวิศวกรรมเพิ่มเติม ไม่ใช่ค่าเกณฑ์ใน Grid Code
